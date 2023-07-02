@@ -19,8 +19,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def load_data():
-    df = pd.read_csv('D:/StreamlitProject-main/Data/All_stats_combined_with_positions_22_23.csv', encoding='utf-8')
-    gk_df = pd.read_csv('D:/StreamlitProject-main/Data/Gk_stats_combined_with_positions.csv', encoding='utf-8')
+    df = pd.read_csv('https://drive.google.com/file/d/1v5aqgm9yAAX9Ag1uyLzpp8sObSkP8AjB/view?usp=drive_link', encoding='utf-8')
+    gk_df = pd.read_csv('https://drive.google.com/file/d/1Sc_SPsYZqeJtTFZVu5b9hfuUiaS9jNjX/view?usp=drive_link', encoding='utf-8')
     return df,gk_df
 df,gk_df = load_data()
 
